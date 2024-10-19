@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ------- Favicon icon ------- -->
+    <link rel="shortcut icon" href="../Project one/img/favicon(1).png" type="image/x-icon">
+    
+    <!-- ------- Boxicon ------- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- ------- Swiper css ------- -->
+    <link rel="stylesheet" href="../Project one/css/swiper-bundle.min.css">
+
+    <!-- ------- css links ------- -->
+    <link rel="stylesheet" href="../Project one/css/style.css">
+
+    <title>Portfolio Project</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Ansel</a>
+
+                <div class="nav__menu" id="nav_menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active__link">
+                                <i class="fa-solid fa-house"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skill" class="nav__link">
+                                <i class="fa-solid fa-book"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class="fa-solid fa-briefcase"></i>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="fa-solid fa-message"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- ------ Theme change btn ------- -->
+                <i class="bx bx-moon change__theme" id="theme-btn"></i>
+            </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello, I'm</span>
+
+                    <h1 class="home__name"> Ansel Klee </h1>
+
+                    <h3 class="home__education"> Frontend Developer </h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="/Ansel-Cv.pdf" class="button button__ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About Me</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                    <img src="../Project one/img/perfil.png" alt="image" class="home__img">
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/" target="_blank" class="home__social__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/" target="_blank" class="home__social__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://dribbble.com/" target="_blank" class="home__social__link">
+                        <i class="fa-solid fa-basketball"></i>
+                    </a>
+                </div>
+                <a href="#about" class="home__scroll">
+                    <i class="fa-solid fa-computer-mouse home__scroll__icon"></i>
+                    <span class="home__scroll__name"> Scroll Down </span>
+                </a>
+            </div>
+        </section>
+        
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle"> My Intro </span>
+            <h2 class="section__title"> About Me </h2>
+
+            <div class="about__container container grid">
+                <img src="../Project one/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+
+                        <div class="about__box">
+                            <i class="fa-solid fa-award about__icon"></i>
+                            <h3 class="about__title"> Experience </h3>
+                            <span class="about__subtitle"> 8 Years Working </span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="fa-solid fa-briefcase about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">48 + Projects</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="fa-solid fa-headset about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Online 24/7</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        Frontend developer, I create web pages with UI / UX user interface, 
+                        I have years of experience and many clients are happy 
+                        with the projects carried out
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skill">
+            <span class="section__subtitle">My abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend developer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">Git</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Developer</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="fa-solid fa-square-check"></i>
+                                
+                                <div>
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h3>
+
+            <div class="services__container container grid">
+
+                <div class="services__card">
+                    <h3 class="services__title">Product <br> Designer</h3>
+                    <span class="services__button">
+                        See more <i class="fa-solid fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal__content">
+                            <i class="fa-solid fa-x services__modal_close"></i>
+                            <h3 class="services__modal_title">Product Designer</h3>
+                            <p class="services__modal_description">
+                                Service with more than 3 years of experience. 
+                                Providing quality work to clients and companies.
+                            </p>
+
+                            <ul class="services__modal__list">
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Web page development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I create ux element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Design and mockups of products for companies.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Ui/Ux <br> Designer</h3>
+                    <span class="services__button">
+                        See more <i class="fa-solid fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal__content">
+                            <i class="fa-solid fa-x services__modal_close"></i>
+                            <h3 class="services__modal_title">Ui/Ux Designer</h3>
+                            <p class="services__modal_description">
+                                Service with more than 3 years of experience. 
+                                Providing quality work to clients and companies.
+                            </p>
+
+                            <ul class="services__modal__list">
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Web page development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I create ux element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Design and mockups of products for companies.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Visual <br> Designer</h3>
+                    <span class="services__button">
+                        See more <i class="fa-solid fa-arrow-right services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal__content">
+                            <i class="fa-solid fa-x services__modal_close"></i>
+                            <h3 class="services__modal_title">Visual Designer</h3>
+                            <p class="services__modal_description">
+                                Service with more than 3 years of experience. 
+                                Providing quality work to clients and companies.
+                            </p>
+
+                            <ul class="services__modal__list">
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I develop the user interface.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Web page development.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I create ux element interactions.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        I position your company brand.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal__item">
+                                    <i class="fa-solid fa-check services__modal__icon"></i>
+                                    <p class="services__modal__info">
+                                        Design and mockups of products for companies.
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active__work" data-filter="all">All</span>
+                <span class="work__item" data-filter=".web">Web</span>
+                <span class="work__item" data-filter=".movil">Movil</span>
+                <span class="work__item" data-filter=".design">Design</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix web">
+                    <img src="../Project one/img/work1.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class="fa-solid fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="../Project one/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App movil</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class="fa-solid fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="../Project one/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Brand design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class="fa-solid fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="../Project one/img/work4.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Web design</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class="fa-solid fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+
+                <div class="work__card mix movil">
+                    <img src="../Project one/img/work5.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App movil</h3>
+
+                    <a href="#" class="work__button">
+                        Demo <i class="fa-solid fa-arrow-right work__icon"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section" id="testimonial">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="../Project one/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Jhon Doe</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were 
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="../Project one/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Paula Vusy</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were 
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="../Project one/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Sara Cill</h3>
+                        <p class="testimonial__description">
+                            A really good job, all aspects of the project were 
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get in touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        Talk to me
+                    </h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-regular fa-envelope contact__card__icon"></i>
+                            <h3 class="contact__card__title">Email</h3>
+                            <span class="contact__card_data">user@gmail.com</span>
+
+                            <a href="mailto:examplemail@correo.com" target="_blank" class="contact__button">
+                                Write me <i class="fa-solid fa-arrow-right contact__button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-brands fa-whatsapp contact__card__icon"></i>
+                            <h3 class="contact__card__title">Whatsapp</h3>
+                            <span class="contact__card_data">999-888-777</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=8801738649525&text=Hello, more information!" target="_blank" class="contact__button">
+                                Write me <i class="fa-solid fa-arrow-right contact__button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fa-brands fa-facebook-messenger contact__card__icon"></i>
+                            <h3 class="contact__card__title">Messenger</h3>
+                            <span class="contact__card_data">user.fb123</span>
+
+                            <a href="https://www.facebook.com/nazmul88hn" target="_blank" class="contact__button">
+                                Write me <i class="fa-solid fa-arrow-right contact__button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">
+                        Write me your project
+                    </h3>
+
+                    <form action="#" class="contact__form">
+                        <div class="contact__form__div">
+                            <label for="name" class="contact__form__tag">Name</label>
+                            <input type="text" placeholder="Insert your name" id="name" class="contact__form__input">
+                        </div>
+
+                        <div class="contact__form__div">
+                            <label for="email" class="contact__form__tag">Email</label>
+                            <input type="email" id="email" placeholder="Insert your email id" class="contact__form__input">
+                        </div>
+
+                        <div class="contact__form__div contact__form__area">
+                            <label for="project" class="contact__form__tag">Project</label>
+                            <textarea id="project" cols="30" rows="10" placeholder="Write your project" class="contact__form__input "></textarea>
+                        </div>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h3 class="footer__title">Ansel</h3>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+
+                <li>
+                    <a href="#testimonial" class="footer__link">Testimonial</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+
+                <a href="https://www.facebook.com/" target="_blank" class="footer__social__link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social__link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://twitter.com/" target="_blank" class="footer__social__link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Bedimcode. All rigths reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="../Project one/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="../Project one/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="../Project one/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="../Project one/js/main.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"></script>
+<script src="https://kit.fontawesome.com/2bbd143277.js"></script>
+</html>
